@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+ /* titulo fuera del header  */
+.conteiner {
+    background: black;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* links de navegacion */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    
+
+}
+.contenedor {
+    display: flex;
+    gap: 80px;
+
+}
+.contenedor > a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darksalmon;
+}
+
+.menu-hamburguesa {
+    display: none;
+}
+/* footer  con img y redes */
+footer {
+    background: coral;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+footer > p {
+    font-size: large;
+}
+footer > img {
+    border: none;
+    background: none;
+
+    
+}
+/* estilado de imagenes ilustrativas del main. */
+.contenedor3  {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 50px;
+    margin: auto;
+    
+    }
+    

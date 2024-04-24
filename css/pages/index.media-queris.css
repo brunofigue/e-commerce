@@ -1,0 +1,24 @@
+@media (max-width: 1288px) {
+    header {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1540px) {
+    .contenedor {
+      display: none;  
+
+    }
+    .navigator {
+        display: none;
+    }
+    .menu-hamburguesa {
+        display: block;
+        width: 35px;
+
+
+    }
+
+}
+
